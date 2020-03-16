@@ -1,0 +1,54 @@
+[
+    {
+        "title":  "lineage 1 heavy chain",
+        "lineage": "1",
+        "chain": "heavy",
+        "lineage_alignment_fasta" : "example_input/lin1.heavy.fasta",
+        "is_aa" : "true",
+        "inclusive_region_bounds" : {
+                                        "CDR3": {"5p": 5, "3p": 6},
+                                        "CDR2": {"5p": 0, "3p": 2}
+                                    },
+        "json_fname": null,
+        "translate": false
+    },
+    {
+        "title":  "lineage 1 light chain",
+        "lineage": "1",
+        "chain": "light",
+        "lineage_alignment_fasta" : "example_input/lin1.light.fasta",
+        "is_aa" : "true",
+        "inclusive_region_bounds" : {
+                                        "CDR3": {"5p": 4, "3p": 6},
+                                        "CDR2": {"5p": 1, "3p": 2}
+                                    },
+        "json_fname": null,
+        "translate": false
+    },
+    {
+        "title":  "lineage 2 heavy chain",
+        "lineage": "2",
+        "chain": "heavy",
+        "lineage_alignment_fasta" : "example_input/lin2.heavy.fasta",
+        "is_aa" : "true",
+        "inclusive_region_bounds" : {
+                                        "CDR3": {"5p": 6, "3p": 9},
+                                        "CDR2": {"5p": 1, "3p": 4}
+                                    },
+        "json_fname": null,
+        "translate": false
+    },
+    {
+        "title":  "lineage 2 light chain",
+        "lineage": "2",
+        "chain": "light",
+        "lineage_alignment_fasta" : "example_input/lin2.heavy.fasta",
+        "is_aa" : "true",
+        "inclusive_region_bounds" : {
+                                        "CDR3": {"5p": 4, "3p": 7},
+                                        "CDR2": {"5p": 1, "3p": 3}
+                                    },
+        "json_fname": null,
+        "translate": false
+    }
+]
