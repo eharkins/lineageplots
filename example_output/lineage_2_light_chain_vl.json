@@ -20,6 +20,9 @@
           "type": "ordinal",
           "field": "position"
         }
+      },
+      "width": {
+        "step": 5
       }
     },
     {
@@ -36,6 +39,9 @@
           "type": "ordinal",
           "field": "position"
         }
+      },
+      "width": {
+        "step": 5
       }
     },
     {
@@ -92,7 +98,10 @@
           "title": "sequence"
         }
       },
-      "title": "lineage 2 light chain"
+      "title": "lineage 2 light chain",
+      "width": {
+        "step": 5
+      }
     }
   ],
   "$schema": "https://vega.github.io/schema/vega-lite/v4.0.2.json",
